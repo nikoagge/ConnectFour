@@ -10,6 +10,7 @@
 		173364DE2A5AA279000920F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173364DD2A5AA279000920F0 /* AppDelegate.swift */; };
 		173364E72A5AA27A000920F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 173364E62A5AA27A000920F0 /* Assets.xcassets */; };
 		173364F42A5AA504000920F0 /* ConnectFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173364F32A5AA504000920F0 /* ConnectFourViewController.swift */; };
+		173364F62A5AA983000920F0 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173364F52A5AA983000920F0 /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +18,7 @@
 		173364DD2A5AA279000920F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		173364E62A5AA27A000920F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		173364F32A5AA504000920F0 /* ConnectFourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectFourViewController.swift; sourceTree = "<group>"; };
+		173364F52A5AA983000920F0 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 		173364DC2A5AA279000920F0 /* ConnectFour */ = {
 			isa = PBXGroup;
 			children = (
+				173364F72A5AA987000920F0 /* Extensions */,
 				173364F12A5AA4D3000920F0 /* Resources */,
 				173364F22A5AA4DF000920F0 /* ViewControllers */,
 			);
@@ -70,6 +73,14 @@
 				173364F32A5AA504000920F0 /* ConnectFourViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		173364F72A5AA987000920F0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				173364F52A5AA983000920F0 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				173364F62A5AA983000920F0 /* UIView+Extension.swift in Sources */,
 				173364F42A5AA504000920F0 /* ConnectFourViewController.swift in Sources */,
 				173364DE2A5AA279000920F0 /* AppDelegate.swift in Sources */,
 			);
